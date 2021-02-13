@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Game of Life</title>
+    <link rel="stylesheet" href='gol.css'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+
+<body>
+<div class="d-flex">
+    <div class="border border-secondary m-5" id='world'>
+    </div>
+    <div class="text-center mt-5 p-2">
+        <Input class="btn-primary m-3" type='button' id='btnstartstop' value='Start Reproducing'
+            onclick='startStopGol();' />
+        <Input class="btn-success m-3" type='button' id='btnreset' value='Reset World' onclick='resetWorld();' />
+        <h5>
+            Rules:
+        </h5>
+        <ul class="list-group m-4">
+            <li class="list-group-item">Any live cell with two or three live neighbours survives.</li>
+            <li class="list-group-item">Any dead cell with three live neighbours becomes a live cell.</li>
+            <li class="list-group-item">All other live cells die in the next generation. Similarly, all other dead cells stay dead.</li>
+        </ul>
+    </div>
+</div>
+    </div>
+    <script src='gol.js'></script>
+</body>
+
+</html>

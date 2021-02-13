@@ -1,0 +1,14 @@
+table {
+    background-color: whitesmoke;
+}
+td {
+    border: 1px solid darkgray;
+    width: 1em;
+    height: 1em;
+}
+td.dead {
+    background-color: transparent;
+}
+td.alive {
+    background-color:black;
+}
