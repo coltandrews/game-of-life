@@ -1,8 +1,8 @@
-const rows = 40;
-const cols = 40;
+const rows = 29;
+const cols = 29;
 let started = false;
 let timer;
-let evolutionSpeed = 100;
+let evolutionSpeed = 50;
 
 let currGen = [rows];
 let nextGen = [rows];
@@ -11,7 +11,6 @@ function createGenArrays() {
     for (let i = 0; i < rows; i++) {
         currGen[i] = new Array(cols);
         nextGen[i] = new Array(cols);
-
     }
 }
 function initGenArrays() {

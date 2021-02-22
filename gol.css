@@ -3,8 +3,8 @@ table {
 }
 td {
     border: 1px solid darkgray;
-    width: 1em;
-    height: 1em;
+    width: 1.5em;
+    height: 1.5em;
 }
 td.dead {
     background-color: transparent;
